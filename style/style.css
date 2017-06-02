@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-family: 'Source Code Pro', monospace;
+}
+
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+svg {
+  height: 200px;
+  width: 200px;
+}
+
+td:nth-of-type(2), td:nth-of-type(2) > div {
+  height: 200px;
+  width: 230px;
+}
+
+td:first-of-type, td:first-of-type > div > span {
+  font-size: 20px;
+}
